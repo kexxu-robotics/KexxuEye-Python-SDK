@@ -1,4 +1,4 @@
-from pathlib import Path
+# Written by: Jurriaan Schreuder
 
 from kexxu_eye_sdk.format import openeye_file_to_xy
 
