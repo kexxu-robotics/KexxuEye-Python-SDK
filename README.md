@@ -10,7 +10,7 @@ To be used with the Kexxu eye tracking glasses available on [kexxu.com](https://
 Install with (python>=3.7):
 
 ```
-pip install git+https://github.com/Kexxu/KexxuEye-Python-SDK.git
+pip install git+https://github.com/kexxu-robotics/KexxuEye-Python-SDK.git
 ```
 
 ![Kexxu Eye Tracking Glasses](images/eyetracker.webp)
