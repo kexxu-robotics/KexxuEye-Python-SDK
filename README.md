@@ -1,3 +1,5 @@
+![Tests](https://github.com/kexxu-robotics/KexxuEye-Python-SDK/actions/workflows/ci.yml/badge.svg)
+[![Coverage](https://codecov.io/gh/kexxu-robotics/KexxuEye-Python-SDK/branch/main/graph/badge.svg)](https://codecov.io/gh/kexxu-robotics/KexxuEye-Python-SDK)
 
 
 KexxuEye Python SDK
