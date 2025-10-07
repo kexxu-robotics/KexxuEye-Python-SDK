@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "kexxu-eye-sdk"
 version = "0.1.0"
 description = "Python SDK for Kexxu Eye devices"
-licence = "Apache" 
 authors = [
     { name = "Jurriaan Schreuder", email = "jschreuder@kexxu.com" }
 ]
