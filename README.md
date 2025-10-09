@@ -15,6 +15,13 @@ pip install git+https://github.com/kexxu-robotics/KexxuEye-Python-SDK.git
 
 ![Kexxu Eye Tracking Glasses](images/eyetracker.webp)
 
+### Documentation at:
+
+[kexxu-robotics.github.io/KexxuEye-Python-SDK/](https://kexxu-robotics.github.io/KexxuEye-Python-SDK/)
+
+
+## The basics of connecting to the Eye Tracker
+
 The Kexxu eye tracker has a device id, like:
 
 ```
