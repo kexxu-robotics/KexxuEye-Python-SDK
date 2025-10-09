@@ -2,7 +2,16 @@
 
 import json
 
-def openeye_file_to_xy(path: str):
+def openeye_file_to_xy(path: str)-> List[Tuple[int,int]]:
+  """Convert an OpenEye eye tracking recording datafile to x,y coordinates in pixels on the video, one per frame.
+
+  Args:
+    path: The file path to the OpenEye Datafile.
+
+  Returns:
+    List with [ (x,y), ... ] gaze locations, one for each video frame
+  """
+
   eye_locs = []
   lines = read_lines(path)
   for line in lines:
@@ -17,7 +26,7 @@ def openeye_file_to_xy(path: str):
       ry = js["pupil_rel_pos_y"]
 
       x, y = to_720p(rx, ry)
-      eye_locs.append([x, y])
+      eye_locs.append((x, y))
     except Exception as e:
         print("error processing event from line:")
         print(line)
