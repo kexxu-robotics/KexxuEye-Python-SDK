@@ -1,5 +1,6 @@
 # Written by: Jurriaan Schreuder
 
+from typing import List, Tuple
 import json
 
 def openeye_file_to_xy(path: str)-> List[Tuple[int,int]]:
