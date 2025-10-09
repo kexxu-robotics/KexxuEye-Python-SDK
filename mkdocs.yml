@@ -18,6 +18,8 @@ plugins:
             separate_signature: true
             filters: ["!^_"]          # hide private members
             inherited_members: true
+            show_root_heading: true
+            heading_level: 2
 
 markdown_extensions:
   - admonition

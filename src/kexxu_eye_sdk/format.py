@@ -3,6 +3,15 @@
 import json
 
 def openeye_file_to_xy(path: str):
+  """Convert an OpenEye eye tracking recording datafile to x,y coordinates in pixels on the video, one per frame.
+
+  Args:
+    path: The file path to the OpenEye Datafile.
+
+  Returns:
+    Array with [ [x,y], ... ] gaze locations, one for each video frame
+  """
+
   eye_locs = []
   lines = read_lines(path)
   for line in lines:
