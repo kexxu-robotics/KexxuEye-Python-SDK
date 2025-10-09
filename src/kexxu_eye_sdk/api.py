@@ -26,6 +26,17 @@ import requests
 # Stop recording
 
 
+# ==== Calibration
+
+# Get conf
+
+# Get eye location
+
+# Move tracking window
+
+# Move tracking cross offset
+
+
 # ==== Recordings
 
 # List recordings
